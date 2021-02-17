@@ -1,4 +1,7 @@
 # Cotton_Disease_Classifier
+
+DATASET LINK  :   https://drive.google.com/drive/folders/1wF2vJRLKqADGOolMhpA2bnAH0Tvi8rO9?usp=sharing
+
 Cotton_disease_Classifier is a Deep Learning model with a above 94% accuracy.
 
 predicted_cotton_disease_model.h5 is a trained model but you you want to train it So please run cotton-disease.ipnb in jupiter notebook or Google colab.
