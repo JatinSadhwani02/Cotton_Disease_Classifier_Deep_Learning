@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>COTTON PLANT DISEASE PREDICTION</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .card-style {
+            background-color: #dcdcdc;
+
+        }
+
+        .content {
+            padding: 15px;
+            color: white;
+            background-color: rgb(153, 156, 150);
+            /* font-size: 1rem; */
+        }
+
+        @media (max-width: 430px) and (min-width: 200px) {
+
+
+            .contents {
+                font-size: 0.6rem;
+                color: chartreuse;
+            }
+
+            .content-h1 {
+
+                font-size: 1rem;
+            }
+        }
+
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+
+        .file-upload{
+  font-size: 15px;
+  background:gray;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px black;
+  width: 350px;
+  outline: none;
+}
+
+
+::-webkit-file-upload-button {
+ color : white ;
+ background : #206a5d ; 
+ padding : 15px ; 
+ border : none ;
+  border-radius : 50px ; 
+  box-shadow : 1px 1px 1px #6b4559 ; 
+  outline : none ; 
+}
+
+
+::-webkit-file-upload-button
+{
+ background : +438 ;
+}
+
+
+    </style>
+</head>
+
+<body style="background-color: aqua;">
+
+    <div>
+        <img src="/static/images/banner1.png" class="w3-border w3-padding" alt="Banner"
+            style="height: 30%; max-height: 30%; width: 100%; max-width: 100%;">
+    </div>
+
+
+
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{ user_image }}" alt="User Image" class="img-thumbnail">
+                </span>
+            </div>
+
+            <div class="col-sm">
+
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+
+                <h2>Disease Name  : </span></h2>
+                <h3 style="line-height: 100%;">Attack of Leaf Sucking and Chewing Pests</h3>
+                <hr class="w-100 mx-auto ">
+            </div>
+        </div>
+
+
+        <h1> Solution for Disease : </h1>
+        <p><strong>Use any one Systemic Insecticide, which contain<i> Flonicamid 50%/ Thiamethoxam 25% WG / Imidacloprid
+                    17.8 Sl / Acetamiprid 20% SP.</i></strong></p>
+        <p></p>
+       
+    </div>
+
+
+
+
+            <!-- <div class="container-fluid contents"> -->
+            <h5 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                class="text-center my-3 contents">
+                Delivery Contact:
+                Jatinsadhwani.1234@gmail.com</h5>
+            <!-- </div> -->
+        </div>
+
+    </section>
+
+</body>
+
+</html>
